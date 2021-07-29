@@ -1,0 +1,10 @@
+todo.txt
+tmp
+
+**/__pycache__
+**/*.d
+
+wrap/*
+!wrap/wrap.py
+!wrap/type_translation_rules
+!wrap/template_instantiations

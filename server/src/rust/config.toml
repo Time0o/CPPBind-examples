@@ -1,0 +1,3 @@
+[env]
+PKGDIR = { value = ".", relative = true }
+L4DIR = { value = "../../../../../", relative = true }

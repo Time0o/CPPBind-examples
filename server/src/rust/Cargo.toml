@@ -1,0 +1,22 @@
+[package]
+name = "example_rust"
+version = "0.1.0"
+authors = ["Timo Nicolai"]
+edition = "2018"
+
+[[bin]]
+name = "example_kobject_client_rust"
+path = "src/example_kobject_client_rust.rs"
+
+[[bin]]
+name = "example_dataspace_rust"
+path = "src/example_dataspace_rust.rs"
+
+[profile.release]
+opt-level = 'z'
+lto = true
+codegen-units = 1
+panic = 'abort'
+
+[build-dependencies]
+cc = "1.0"
