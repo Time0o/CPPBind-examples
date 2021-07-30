@@ -23,7 +23,7 @@ SRC_CC_mem_alloc.so              := bind/mem_alloc_lua.cc
 SRC_CC_rm.so                     := bind/rm_lua.cc
 SRC_CC_util.so                   := bind/util_lua.cc
 
-PRIVATE_INCDIR := $(PKGDIR)/wrap
+PRIVATE_INCDIR := $(PKGDIR)/CPPBind/generate
 
 REQUIRES_LIBS := lua++
 

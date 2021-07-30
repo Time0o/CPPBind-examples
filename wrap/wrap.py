@@ -132,6 +132,7 @@ if __name__ == '__main__':
             '--output-directory', output_dir,
             '--output-cpp-header-extension', '.h',
             '--output-cpp-source-extension', '.cc',
+            '--rust-no-enums',
             '--lua-include-cpp',
             '--'
         ]

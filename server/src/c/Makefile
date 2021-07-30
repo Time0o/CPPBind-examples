@@ -18,7 +18,7 @@ SRC_CC_example_dataspace_c := bind/consts_c.cc \
                               bind/mem_alloc_c.cc \
                               bind/rm_c.cc
 
-PRIVATE_INCDIR := $(PKGDIR)/wrap $(PKGDIR)/server/src/c/bind
+PRIVATE_INCDIR := $(PKGDIR)/CPPBind/generate $(PKGDIR)/server/src/c/bind
 
 REQUIRES_LIBS := l4re_c l4re_c-util
 
